@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="geral3" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="196.0" prefWidth="426.0" style="-fx-background-color: #e3e3e3;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.view.HelloController">
+   <children>
+      <TextField fx:id="txtmarcam" layoutX="69.0" layoutY="37.0" prefHeight="25.0" prefWidth="324.0" />
+      <TextField fx:id="txtcorm" layoutX="249.0" layoutY="71.0" prefHeight="25.0" prefWidth="143.0" />
+      <Button layoutX="130.0" layoutY="146.0" mnemonicParsing="false" onAction="#btnCadastrarmoto" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: #00c1e3;" text="Cadastrar" />
+      <Text layoutX="27.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marca" />
+      <Text layoutX="223.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cor" />
+      <TextField fx:id="txtprecom" layoutX="69.0" layoutY="71.0" prefHeight="25.0" prefWidth="135.0" />
+      <TextField fx:id="txtano" layoutX="137.0" layoutY="104.0" prefHeight="25.0" prefWidth="256.0" />
+      <Text layoutX="27.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ano de Lançamento" />
+      <Text layoutX="28.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Preço" />
+   </children>
+</AnchorPane>

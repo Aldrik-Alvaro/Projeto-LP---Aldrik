@@ -15,7 +15,7 @@ import java.net.URL;
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("Hello.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("locadora.fxml"));
         Scene scene = new Scene((Parent) fxmlLoader.load(), 460, 200);
         stage.setTitle("Cadastro de Cliente");
         stage.setScene(scene);

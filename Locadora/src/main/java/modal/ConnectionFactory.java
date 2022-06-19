@@ -8,8 +8,7 @@ public class ConnectionFactory {
 
 	public Connection conectaBD() throws SQLException {
 		
-        String connectionUrl = "jdbc:sqlserver://fluffydomrock.database.windows.net:1433;databaseName=API_Dom_Rock;user=fluffydomrock;password=Fluffyapi123";
-
+        String connectionUrl = "jdbc:sqlserver://fluffyapi.database.windows.net:1433;databaseName=API;user=fluffyapifatec;password=Fluffyapi123";
 
         Connection con = DriverManager.getConnection(connectionUrl);
 

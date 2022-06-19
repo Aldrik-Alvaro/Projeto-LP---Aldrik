@@ -36,7 +36,7 @@
                         <TextField fx:id="txt_cliente_email" layoutX="75.0" layoutY="93.0" />
                         <TextField fx:id="txt_cliente_telefone" layoutX="75.0" layoutY="130.0" />
                         <Button layoutX="18.0" layoutY="195.0" mnemonicParsing="false" onAction="#btn_cliente_cadastrar" style="-fx-background-color: #3185c1;" text="Cadastrar" textFill="WHITE" />
-                        <Button layoutX="157.0" layoutY="195.0" mnemonicParsing="false" onAction="#btn_cliente_pesquisar" style="-fx-background-color: #3185c1;" text="Pesquisar" textFill="WHITE" />
+                        <Button layoutX="157.0" layoutY="195.0" mnemonicParsing="false" onAction="#btn_cliente_pesquisar" style="-fx-background-color: #3185c1;" text="Pesquisar" textFill="WHITE" visible="false" />
                      </children>
                   </AnchorPane>
               </content>
@@ -63,7 +63,7 @@
                         <TextField fx:id="txt_carro_cor" layoutX="75.0" layoutY="93.0" />
                         <TextField fx:id="txt_carro_preco" layoutX="75.0" layoutY="130.0" />
                         <Button layoutX="18.0" layoutY="195.0" mnemonicParsing="false" onAction="#btn_carro_cadastrar" style="-fx-background-color: #3185c1;" text="Cadastrar" textFill="WHITE" />
-                        <Button layoutX="157.0" layoutY="195.0" mnemonicParsing="false" onAction="#btn_carro_pesquisar" style="-fx-background-color: #3185c1;" text="Pesquisar" textFill="WHITE" />
+                        <Button layoutX="157.0" layoutY="195.0" mnemonicParsing="false" onAction="#btn_carro_pesquisar" style="-fx-background-color: #3185c1;" text="Pesquisar" textFill="WHITE" visible="false" />
                      </children>
                   </AnchorPane>
                </content>
@@ -90,7 +90,7 @@
                         <TextField fx:id="txt_moto_cor" layoutX="75.0" layoutY="93.0" />
                         <TextField fx:id="txt_moto_ano" layoutX="75.0" layoutY="130.0" />
                         <Button layoutX="18.0" layoutY="195.0" mnemonicParsing="false" onAction="#btn_moto_cadastrar" style="-fx-background-color: #3185c1;" text="Cadastrar" textFill="WHITE" />
-                        <Button layoutX="157.0" layoutY="195.0" mnemonicParsing="false" onAction="#btn_moto_pesquisar" style="-fx-background-color: #3185c1;" text="Pesquisar" textFill="WHITE" />
+                        <Button layoutX="157.0" layoutY="195.0" mnemonicParsing="false" onAction="#btn_moto_pesquisar" style="-fx-background-color: #3185c1;" text="Pesquisar" textFill="WHITE" visible="false" />
                      </children>
                   </AnchorPane>
                </content>

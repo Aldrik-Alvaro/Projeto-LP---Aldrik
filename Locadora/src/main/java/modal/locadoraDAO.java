@@ -83,6 +83,10 @@ public class locadoraDAO {
 			stm.setString(3, carro.getCarro_cor());
 			stm.setString(4, carro.getCarro_preco());
 			
+			System.out.println("placa:");
+			System.out.println(carro.getCarro_placa());
+			System.out.println(" ");
+			
 			stm.execute();
 			stm.close();
 		} catch (SQLException e) {

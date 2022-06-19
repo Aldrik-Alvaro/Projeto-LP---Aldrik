@@ -175,6 +175,7 @@ public class locadoraController implements Initializable {
 				txt_cliente_cpf.clear();
 				txt_cliente_email.clear();
 				txt_cliente_telefone.clear();
+				btn_cliente_pesquisar();
 				
 			} catch (Exception e) {
 				// TODO: handle exception
@@ -213,13 +214,14 @@ public class locadoraController implements Initializable {
 	    	carro.setCarro_preco(txt_carro_preco.getText());
 		
 			try {
-				dao.cadastrar_cliente(carro);
+				dao.cadastrar_carro(carro);
 				exibiDialogoINFO("Carro cadastrando com sucesso!");
 				//btn_cad_limpar();
 				txt_carro_placa.clear();
 				txt_carro_marca.clear();
 				txt_carro_cor.clear();
 				txt_carro_preco.clear();
+				btn_carro_pesquisar();
 				
 			} catch (Exception e) {
 				// TODO: handle exception
@@ -266,6 +268,7 @@ public class locadoraController implements Initializable {
 				txt_moto_preço.clear();
 				txt_moto_cor.clear();
 				txt_moto_ano.clear();
+				btn_moto_pesquisar();
 				
 			} catch (Exception e) {
 				// TODO: handle exception
@@ -316,7 +319,5 @@ public class locadoraController implements Initializable {
 	    	
 	    }
 	     
-
-	
 
 }

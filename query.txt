@@ -1,0 +1,44 @@
+SELECT * FROM SYS.TABLES
+
+--CRIAÇÃO DE TABELAS
+CREATE TABLE  cliente_locadora (
+	id_cliente int identity(1,1) primary key,
+    nome varchar(40),
+	cpf varchar(40),
+	email varchar(40),
+	telefone varchar(40)
+);
+
+CREATE TABLE  carro_locadora (
+	id_carro int identity(1,1) primary key,
+    placa varchar(40),
+	marca varchar(40),
+	cor varchar(40),
+	preco varchar(40)
+);
+
+CREATE TABLE  moto_locadora (
+	id_moto int identity(1,1) primary key,
+    marca varchar(40),
+	preco varchar(40),
+	cor varchar(40),
+	ano varchar(40)
+);
+
+
+
+SELECT * FROM funcionario_locadora;
+
+SELECT * FROM cliente_locadora;
+
+SELECT * FROM carro_locadora;
+
+SELECT * FROM moto_locadora;
+
+
+DELETE cliente_locadora;
+DELETE carro_locadora;
+DELETE moto_locadora;
+DELETE funcionario_locadora;
+
+SELECT * FROM funcionario_locadora

@@ -121,12 +121,12 @@ public class locadoraController implements Initializable {
 	    private TextField txt_moto_marca;
 
 	    @FXML
-	    private TextField txt_moto_preço;
+	    private TextField txt_moto_preco;
 	    
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		
-		///COMEÇO DO CODIGO///
+		///COMEï¿½O DO CODIGO///
 	    
 	    //private locadoraDTO dto;
 	    private locadoraDAO dao;
@@ -255,7 +255,7 @@ public class locadoraController implements Initializable {
 	    	locadoraDTO moto = new locadoraDTO();
 			
 	    	moto.setMoto_marca(txt_moto_marca.getText());
-	    	moto.setMoto_preco(txt_moto_preço.getText());
+	    	moto.setMoto_preco(txt_moto_preco.getText());
 	    	moto.setMoto_cor(txt_moto_cor.getText());
 	    	moto.setMoto_ano(txt_moto_ano.getText());
 		
@@ -264,7 +264,7 @@ public class locadoraController implements Initializable {
 				exibiDialogoINFO("Moto cadastrando com sucesso!");
 				//btn_cad_limpar();
 				txt_moto_marca.clear();
-				txt_moto_preço.clear();
+				txt_moto_preco.clear();
 				txt_moto_cor.clear();
 				txt_moto_ano.clear();
 				btn_moto_pesquisar();
@@ -300,7 +300,7 @@ public class locadoraController implements Initializable {
 	    
 	    private void exibiDialogoINFO(String informacao) {
 	    	Alert alert = new Alert(AlertType.INFORMATION);
-	    	alert.setTitle("Informação");
+	    	alert.setTitle("Informaï¿½ï¿½o");
 	    	alert.setHeaderText(null);
 	    	alert.setContentText(informacao);
 	    	
@@ -310,7 +310,7 @@ public class locadoraController implements Initializable {
 	    
 	     void exibiDialogoERRO(String erro) {
 	    	Alert alert = new Alert(AlertType.ERROR);
-	    	alert.setTitle("Informação");
+	    	alert.setTitle("Informaï¿½ï¿½o");
 	    	alert.setHeaderText(null);
 	    	alert.setContentText(erro);
 	    	

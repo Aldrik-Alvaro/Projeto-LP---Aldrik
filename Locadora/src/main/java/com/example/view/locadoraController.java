@@ -148,7 +148,6 @@ public class locadoraController implements Initializable {
 	    	col_carro_cor.setCellValueFactory(new PropertyValueFactory<>("carro_cor"));
 	    	col_carro_preco.setCellValueFactory(new PropertyValueFactory<>("carro_preco"));
 	    	
-	    	
 	    	col_moto_id.setCellValueFactory(new PropertyValueFactory<>("moto_id"));
 	    	col_moto_marca.setCellValueFactory(new PropertyValueFactory<>("moto_marca"));
 	    	col_moto_preco.setCellValueFactory(new PropertyValueFactory<>("moto_preco"));

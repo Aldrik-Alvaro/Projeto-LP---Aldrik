@@ -1,4 +1,3 @@
-SELECT * FROM SYS.TABLES
 
 --CRIAÇÃO DE TABELAS
 CREATE TABLE  cliente_locadora (
@@ -25,9 +24,9 @@ CREATE TABLE  moto_locadora (
 	ano varchar(40)
 );
 
+-----------------------------------------------------
 
-
-SELECT * FROM funcionario_locadora;
+--SELECT * FROM funcionario_locadora;
 
 SELECT * FROM cliente_locadora;
 
@@ -35,10 +34,14 @@ SELECT * FROM carro_locadora;
 
 SELECT * FROM moto_locadora;
 
+----------------------------------------------------
+
+--DELETE funcionario_locadora;
 
 DELETE cliente_locadora;
-DELETE carro_locadora;
-DELETE moto_locadora;
-DELETE funcionario_locadora;
 
-SELECT * FROM funcionario_locadora
+DELETE carro_locadora;
+
+DELETE moto_locadora;
+
+
